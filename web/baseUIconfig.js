@@ -7,9 +7,9 @@
 const CONFIG = {
   headless: false,
   api: {
-    host: '127.0.0.1',
+    host: '0.0.0.0',
     port: 3000,
-    timeout: 9000000 // 2 minutes
+    timeout: 9000000 // 15 minutes
   },
   ui: {
     ssl: false,
@@ -17,7 +17,8 @@ const CONFIG = {
     port: 3000,
     path: '/'
   },
-  adapter: 'sqlite'
+  //adapter: 'sqlite'
+  adapter: 'mongodb'
 }
 
 if(typeof window === 'undefined')
