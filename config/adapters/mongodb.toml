@@ -1,4 +1,4 @@
-connectionString = "mongodb://mongodb/gekko"
+connectionString = "mongodb://192.168.88.95/gekko"
 path = "plugins/mongodb"
 version = 0.1
 
