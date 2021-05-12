@@ -24,7 +24,7 @@
     "commander": "^2.11.0",
     "flat": "^4.0.0",
     "fs-extra": "^4.0.2",
-    "nodemailer": "^4.4.1",
+    "nodemailer": "^6.4.16",
     "random-ext": "^2.6.1",
     "request": "^2.83.0",
     "request-promise": "^4.2.2"
